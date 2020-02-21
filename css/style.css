@@ -1,0 +1,15 @@
+
+p {
+font-size: 200%;
+}
+
+li {
+  display: inline;
+  padding-left: 25px;
+  margin-top: 50px;
+
+}
+
+h1, h2, h3{
+  padding-left: 60px;
+}
