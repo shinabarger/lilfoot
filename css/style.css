@@ -105,17 +105,17 @@ h1 {
 
 }
 
-h2, #welcometo, #formatlikeh2 {
+h2, #welcometo, .formatlikeh2 {
     font-size: 200%;
     font-weight: 500;
 }
 
-h3, #homepageinfo, #formatlikeh3 {
+h3, #homepageinfo, .formatlikeh3 {
     font-size: 100%;
     font-weight: 100;
 }
 
-h4, #formatlikeh4 {
+h4, .formatlikeh4 {
   font-weight: 100;
   font-size: 80%;
 }
