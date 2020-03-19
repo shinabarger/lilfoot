@@ -100,17 +100,17 @@ h1 {
     font-weight: 900;
 }
 
-h2, #welcometo {
+h2, #welcometo, #formatlikeh2 {
     font-size: 200%;
     font-weight: 500;
 }
 
-h3, #homepageinfo {
+h3, #homepageinfo, #formatlikeh3 {
     font-size: 100%;
     font-weight: 100;
 }
 
-h4 {
+h4, #formatlikeh4 {
   font-weight: 100;
   font-size: 80%;
 }
@@ -448,3 +448,15 @@ label {
         margin-top: 5em;
     }
 }
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .buttons {
+      transition-duration: 0;
+    }
+ }
+
+@media screen and (prefers-reduced-motion) {
+  .buttons {
+      transition-duration: 0;
+    }
+ }
