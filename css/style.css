@@ -248,8 +248,6 @@ footer {
     margin-left: .5em;
     padding: 1em;
     height: 15em;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
     transition-duration: .5s;
 }
 
@@ -373,6 +371,7 @@ label {
         align-self: center;
         color: white;
     }
+
     .griditem {
         width: 28%;
         position: relative;
