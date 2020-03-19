@@ -128,7 +128,6 @@ a {
 
 a:hover {
     color: #1D431F;
-    font-weight: 800;
 }
 
 div {}
@@ -164,7 +163,7 @@ div {}
 }
 
 .header-shadow {
-    box-shadow: 0px 0px 50px 10px #ccc;
+    box-shadow: 0px 0px 50px 5px #ccc;
 }
 
 .shadow {
@@ -203,8 +202,6 @@ div {}
 .buttons:hover {
     background-color: #D4FFDB;
     color: #0B502A;
-    border: 5px solid #0B502A;
-        font-weight: 800;
 }
 
 
@@ -309,7 +306,6 @@ label {
   background-color: #0B502A;
   color: white;
   border-radius: 5px;
-  border: 0px;
 }
 
 .faqbutton:hover {
