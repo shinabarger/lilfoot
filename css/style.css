@@ -93,6 +93,11 @@ h3, #homepageinfo {
     font-weight: 100;
 }
 
+h4 {
+  font-weight: 100;
+  font-size: 80%;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -180,6 +185,8 @@ div {}
         font-weight: 800;
 }
 
+
+
 footer {
     font-size: 90%;
     bottom: 0;
@@ -249,6 +256,41 @@ label {
 .input {
     width: 75%;
     height: 5em;
+}
+
+.FAQs {
+  margin-top: 5em;
+}
+
+.faqbutton {
+  border: 0;
+  transition-duration: 0.3s;
+  text-align: center;
+  display: inline-block;
+  weight: 500;
+  padding: 1em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  background-color: #0B502A;
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.faqbutton:hover {
+  background-color: #11763D;
+  color: white;
+        font-weight: 800;
+}
+
+
+.faq-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 
