@@ -293,6 +293,12 @@ label {
   z-index: 1;
 }
 
+#active {
+  color: #1D431F;
+  background-color: white;
+  font-weight: 800;
+}
+
 
 /*BEGIN TABLET VIEW
 **************
