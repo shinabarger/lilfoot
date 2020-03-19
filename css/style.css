@@ -117,8 +117,6 @@ div {
 
 .buttons {
     transition-duration: 0.3s;
-    background-color: #17A055;
-    color: white;
     text-align: center;
     display: inline-block;
     weight: 500;
@@ -126,12 +124,14 @@ div {
     margin-top: 3em;
     margin-bottom: 1em;
     font-size: 125%;
+    background-color: #D6D6D6;
+    color: #0B502A;
 }
 
 .buttons:hover {
-    background-color: #D6D6D6;
-    /* Green */
-    color: #0B502A;
+
+    background-color: #0B502A;
+    color: white;
 }
 
 footer {
